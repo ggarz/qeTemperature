@@ -24,21 +24,41 @@ plant_ids <- levels(as.factor(qe_data$id)) # extract all plant ids
 qe_data$Tleaf_squared <- qe_data$Tleaf * qe_data$Tleaf
 
 ### plant_ids[1]
-plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[1]))
-tresp_id1 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, data = subset(qe_data, id == plant_ids[1]))
-summary(tresp_id1)
+#plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[1]))
+#tresp_id1 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, data = subset(qe_data, id == plant_ids[1]))
+#summary(tresp_id1)
+### keep: NO
+### comments: only bouteloa so throwing this out
 
 ### plant_ids[2]
-plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[2]))
-tresp_id2 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, data = subset(qe_data, id == plant_ids[2]))
-summary(tresp_id2)
+#plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[2]))
+#tresp_id2 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, data = subset(qe_data, id == plant_ids[2]))
+#summary(tresp_id2)
+### keep: NO
+### comments: only one point for the curve, so remove
 
 ### plant_ids[3]
-plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[3]))
-tresp_id3 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, data = subset(qe_data, id == plant_ids[3]))
+plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[3] & PhiPS2 < 0.12))
+tresp_id3 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, 
+                data = subset(qe_data, id == plant_ids[3] & PhiPS2 < 0.12))
 summary(tresp_id3)
+### keep: YES
+### comments: removed one outlier point at Tleaf = 30 (much higher than all other values)
+
+### plant_ids[4]
+#plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[4]))
+#tresp_id4 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, 
+                data = subset(qe_data, id == plant_ids[4]))
+#summary(tresp_id4)
+### keep: NO
+### comments: only one point for the curve, so remove
 
 ###########
 ### TODO
 ##########
 # fit temperature response curves for all individual plants
+
+### plant_ids[4]
+plot(PhiPS2~Tleaf, data = subset(qe_data, id == plant_ids[4]))
+tresp_id4 <- lm(PhiPS2 ~ Tleaf_squared + Tleaf, data = subset(qe_data, id == plant_ids[4]))
+summary(tresp_id4)
