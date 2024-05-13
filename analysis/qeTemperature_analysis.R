@@ -688,7 +688,7 @@ colnames(photo_table) <- c('a', 'a_SE', 'b', 'b_SE', 'c', 'c_SE')
 ####### now we will try and fit this data to an equation
 
 ###string of temperature values
-temp_values <- seq(10, 50, 1)
+temp_values <- seq(15, 50, 1)
 
 ###c3 equation
 phi_c3 <- (photo_table[1,1] * temp_values^2) + (photo_table[1,3] * temp_values) + (photo_table[1,5])
@@ -702,10 +702,10 @@ phi_c4 <- (photo_table[2,1] * temp_values^2) + (photo_table[2,3] * temp_values) 
 topt_boxplot <- ggplot(data = coef_df, 
                        aes(x = photosynthetic_pathway, y = topt, fill = photosynthetic_pathway)) +
   theme(legend.position = 'none',
-        axis.title.x = element_text(size = rel(2)),
-        axis.title.y = element_text(size = rel(2)),
-        axis.text.x = element_text(size = rel(1.5)),
-        axis.text.y = element_text(size = rel(1.5)),
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.5)),
+        axis.text.y = element_text(size = rel(2.5)),
         panel.background = element_rect(fill = 'white', colour = 'black'),
         panel.grid.major = element_line(colour = 'grey')) +
   geom_boxplot(color = 'black') +
@@ -717,10 +717,10 @@ topt_boxplot <- ggplot(data = coef_df,
 phiopt_boxplot <- ggplot(data = coef_df, 
                        aes(x = photosynthetic_pathway, y = phi_opt, fill = photosynthetic_pathway)) +
   theme(legend.position = 'none',
-        axis.title.x = element_text(size = rel(2)),
-        axis.title.y = element_text(size = rel(2)),
-        axis.text.x = element_text(size = rel(1.5)),
-        axis.text.y = element_text(size = rel(1.5)),
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.5)),
+        axis.text.y = element_text(size = rel(2.5)),
         panel.background = element_rect(fill = 'white', colour = 'black'),
         panel.grid.major = element_line(colour = 'grey')) +
   geom_boxplot(color = 'black') +
@@ -732,10 +732,10 @@ phiopt_boxplot <- ggplot(data = coef_df,
 b_boxplot <- ggplot(data = coef_df, 
                          aes(x = photosynthetic_pathway, y = -b, fill = photosynthetic_pathway)) +
   theme(legend.position = 'none',
-        axis.title.x = element_text(size = rel(2)),
-        axis.title.y = element_text(size = rel(2)),
-        axis.text.x = element_text(size = rel(1.5)),
-        axis.text.y = element_text(size = rel(1.5)),
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.5)),
+        axis.text.y = element_text(size = rel(2.5)),
         panel.background = element_rect(fill = 'white', colour = 'black'),
         panel.grid.major = element_line(colour = 'grey')) +
   geom_boxplot(color = 'black') +
@@ -748,10 +748,10 @@ tresp_dataframe <- as.data.frame(cbind(temp_values, phi_c3, phi_c4))
 
 tresp_lineplot <- ggplot(data = tresp_dataframe, aes(x = temp_values, y = phi_c3)) +
   theme(legend.position = 'top', 
-        axis.title.x = element_text(size = rel(2)),
-        axis.title.y = element_text(size = rel(2)),
-        axis.text.x = element_text(size = rel(1.5)),
-        axis.text.y = element_text(size = rel(1.5)),
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.25)),
+        axis.text.y = element_text(size = rel(2.25)),
         panel.background = element_rect(fill = 'white', colour = 'black'),
         panel.grid.major = element_line(colour = 'grey'),) +
   geom_line(color = '#1887ab', linewidth = 3) +
@@ -761,22 +761,198 @@ tresp_lineplot <- ggplot(data = tresp_dataframe, aes(x = temp_values, y = phi_c3
 
 ### print figures
 tiff(filename = 'plots/topt_boxplot.tiff',
-     width = 6, height = 6, units = 'in', res = 300)
+     width = 8, height = 8, units = 'in', res = 300)
 plot(topt_boxplot)
 dev.off()
 
 tiff(filename = 'plots/phiopt_boxplot.tiff',
-     width = 6, height = 6, units = 'in', res = 300)
+     width = 8, height = 8, units = 'in', res = 300)
 plot(phiopt_boxplot)
 dev.off()
 
 tiff(filename = 'plots/b_boxplot.tiff',
-     width = 6, height = 6, units = 'in', res = 300)
+     width = 8, height = 8, units = 'in', res = 300)
 plot(b_boxplot)
 dev.off()
 
 tiff(filename = 'plots/tresp_lineplot.tiff',
-     width = 6, height = 6, units = 'in', res = 300)
+     width = 8, height = 8, units = 'in', res = 300)
 plot(tresp_lineplot)
 dev.off()
 
+
+
+
+
+
+
+
+
+
+###Starting over with species
+coef_df
+
+#### hypothesis 1: temperature optimum is higher for c4 species than c3 species
+coef_df$topt <- (-coef_df$b) / (2*coef_df$a)
+hist(coef_df$topt) 
+s_topt_lmer <- lmer(topt ~ species + (1|block), data = coef_df)
+plot(resid(s_topt_lmer) ~ fitted(s_topt_lmer)) 
+summary(s_topt_lmer)
+Anova(s_topt_lmer) 
+emmeans(s_topt_lmer, ~species)
+
+#### hypothesis 2: breadth of curve (b) is higher for c4 species than c3 species
+hist(coef_df$b) 
+s_b_lmer <- lmer(b ~ species + (1|block), data = coef_df)
+plot(resid(s_b_lmer) ~ fitted(s_b_lmer)) 
+summary(s_b_lmer) 
+Anova(s_b_lmer) 
+emmeans(s_b_lmer, ~species)
+
+#### hypothesis 3: phi at temperature optimum is higher for c4 species than c3 species
+coef_df$phi_opt <- (coef_df$a * coef_df$topt^2) + (coef_df$b * coef_df$topt) + coef_df$c
+hist(coef_df$phi_opt) 
+s_phi_opt_lmer <- lmer(phi_opt ~ species + (1|block), data = coef_df)
+plot(resid(s_phi_opt_lmer) ~ fitted(s_phi_opt_lmer))
+summary(s_phi_opt_lmer) 
+Anova(s_phi_opt_lmer) 
+emmeans(s_phi_opt_lmer, ~species)
+
+#### make models for (a) and (c) values
+
+### (a) model
+hist(coef_df$a) 
+s_a_lmer <- lmer(a ~ species + (1|block), data = coef_df)
+plot(resid(s_a_lmer) ~ fitted(s_a_lmer)) 
+summary(s_a_lmer) 
+Anova(s_a_lmer) 
+emmeans(s_a_lmer, ~species)
+
+### (c) model
+hist(coef_df$c) 
+s_c_lmer <- lmer(c ~ species + (1|block), data = coef_df)
+plot(resid(s_c_lmer) ~ fitted(s_c_lmer)) 
+summary(s_c_lmer) 
+Anova(s_c_lmer) 
+emmeans(s_c_lmer, ~species)
+
+###extract emmeans data for a,b,c
+
+summary(emmeans(s_a_lmer, ~species))
+
+summary(emmeans(s_b_lmer, ~species))
+
+summary(emmeans(s_c_lmer, ~species))
+
+
+###Box plots!
+s_topt_boxplot <- ggplot(data = coef_df,
+                         aes(x = species, y=topt,
+                             fill = species)) + 
+  theme(legend.position = 'none',
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.5)),
+        axis.text.y = element_text(size = rel(2.5)),
+        panel.background = element_rect(fill = 'white', colour = 'black'),
+        panel.grid.major = element_line(colour = 'grey')) +
+  geom_boxplot(color = 'black') + 
+  scale_fill_manual(values = c('#1887ab', "#87ab18", '#d34467', '#8518ab'))
+  
+s_b_boxplot <- ggplot(data = coef_df,
+                      aes(x = species, y=-b,
+                          fill = species)) + 
+  theme(legend.position = 'none',
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.5)),
+        axis.text.y = element_text(size = rel(2.5)),
+        panel.background = element_rect(fill = 'white', colour = 'black'),
+        panel.grid.major = element_line(colour = 'grey')) +
+  geom_boxplot(color = 'black') + 
+  scale_fill_manual(values = c('#1887ab', "#87ab18", '#d34467', '#8518ab'))
+
+s_phiopt_boxplot <- ggplot(data = coef_df,
+                           aes(x = species, y=phi_opt,
+                               fill = species)) + 
+  theme(legend.position = 'none',
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.5)),
+        axis.text.y = element_text(size = rel(2.5)),
+        panel.background = element_rect(fill = 'white', colour = 'black'),
+        panel.grid.major = element_line(colour = 'grey')) +
+  geom_boxplot(color = 'black') + 
+  scale_fill_manual(values = c('#1887ab', "#87ab18", '#d34467', '#8518ab'))
+
+
+###now for line graph...
+
+ely_table <- c(summary(emmeans(s_a_lmer, ~species))[2][1,1],
+                   summary(emmeans(s_b_lmer, ~species))[2][1,1],
+                   summary(emmeans(s_c_lmer, ~species))[2][1,1])
+
+pas_table <- c(summary(emmeans(s_a_lmer, ~species))[2][2,1],
+                   summary(emmeans(s_b_lmer, ~species))[2][2,1],
+                   summary(emmeans(s_c_lmer, ~species))[2][2,1])
+
+scz_table <- c(summary(emmeans(s_a_lmer, ~species))[2][3,1],
+                   summary(emmeans(s_b_lmer, ~species))[2][3,1],
+                   summary(emmeans(s_c_lmer, ~species))[2][3,1])
+
+sor_table <- c(summary(emmeans(s_a_lmer, ~species))[2][4,1],
+               summary(emmeans(s_b_lmer, ~species))[2][4,1],
+               summary(emmeans(s_c_lmer, ~species))[2][4,1])
+
+species_table <- rbind(ely_table, pas_table, scz_table, sor_table)
+colnames(species_table) <- c('a', 'b', 'c')
+
+###same temp range, make equations..?
+
+phi_ely <- (species_table[1,1] * temp_values^2) + (species_table[1,2] * temp_values) + (species_table[1,3])
+phi_pas <- (species_table[2,1] * temp_values^2) + (species_table[2,2] * temp_values) + (species_table[2,3])
+phi_scz <- (species_table[3,1] * temp_values^2) + (species_table[3,2] * temp_values) + (species_table[3,3])
+phi_sor <- (species_table[4,1] * temp_values^2) + (species_table[4,2] * temp_values) + (species_table[4,3])
+
+species_dataframe <- as.data.frame(cbind(temp_values, phi_ely, phi_pas, phi_scz, phi_sor))
+
+###lineplot
+
+species_lineplot <- ggplot(data = species_dataframe, aes(x = temp_values, y = phi_ely)) +
+  theme(legend.position = 'top', 
+        axis.title.x = element_text(size = rel(2.75)),
+        axis.title.y = element_text(size = rel(2.75)),
+        axis.text.x = element_text(size = rel(2.25)),
+        axis.text.y = element_text(size = rel(2.25)),
+        panel.background = element_rect(fill = 'white', colour = 'black'),
+        panel.grid.major = element_line(colour = 'grey'),) +
+  geom_line(color = '#1887ab', linewidth = 2) +
+  geom_line(aes(y = phi_pas), color = '#87ab18', linewidth = 2) +
+  geom_line(aes(y = phi_scz), color = '#d34467', linewidth = 2) +
+  geom_line(aes(y = phi_sor), color = '#8518ab', linewidth = 2) +
+  geom_line(aes(y = phi_c3), color = 'black', linewidth = 1, linetype = 'dashed') +
+  geom_line(aes(y = phi_c4), color = 'black', linewidth = 1, linetype = 'dotted') +
+  xlab('Leaf temperature \u00b0C\n') +
+  ylab(expression('PhiPSII (mol mol'^'-1' * ')'))
+
+### print figures
+tiff(filename = 'plots/s_topt_boxplot.tiff',
+     width = 8, height = 8, units = 'in', res = 300)
+plot(s_topt_boxplot)
+dev.off()
+
+tiff(filename = 'plots/s_phiopt_boxplot.tiff',
+     width = 8, height = 8, units = 'in', res = 300)
+plot(s_phiopt_boxplot)
+dev.off()
+
+tiff(filename = 'plots/s_b_boxplot.tiff',
+     width = 8, height = 8, units = 'in', res = 300)
+plot(s_b_boxplot)
+dev.off()
+
+tiff(filename = 'plots/species_lineplot.tiff',
+     width = 8, height = 8, units = 'in', res = 300)
+plot(species_lineplot)
+dev.off()
+  
