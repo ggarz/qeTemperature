@@ -11,6 +11,7 @@ library(tidyverse)
 library(lme4)
 library(car)
 library(emmeans)
+library(writexl)
 
 ## load in data
 qe_data_raw <- read.csv("../data/licor/licor_data_clean.csv")
@@ -955,4 +956,10 @@ tiff(filename = 'plots/species_lineplot.tiff',
      width = 8, height = 8, units = 'in', res = 300)
 plot(species_lineplot)
 dev.off()
+
+
+
+###creating/printing dataframes for paper
+write_xlsx(coef_df, "coefdataframe.xlsx")
   
+
