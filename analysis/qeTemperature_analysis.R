@@ -18,7 +18,7 @@ qe_data_raw <- read.csv("../data/licor/licor_data_clean.csv")
 
 ## have a look at the data
 head(qe_data_raw$PhiPS2) # looks good!
-hist(qe_data_raw$PhiPS2) # not a numeric column because of some div/0 errors
+# hist(qe_data_raw$PhiPS2) # not a numeric column because of some div/0 errors
 
 ## subset data to include only good phips2 values
 qe_data <- subset(qe_data_raw, PhiPS2 != "#DIV/0!")
@@ -907,6 +907,8 @@ sor_table <- c(summary(emmeans(s_a_lmer, ~species))[2][4,1],
 
 species_table <- rbind(ely_table, pas_table, scz_table, sor_table)
 colnames(species_table) <- c('a', 'b', 'c')
+
+write.csv(species_table, 'species_table.csv')
 
 ###same temp range, make equations..?
 

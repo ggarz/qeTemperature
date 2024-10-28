@@ -1,0 +1,249 @@
+paper,id,species,growth.temp,meas.temp,phi.psii,topt.normalised,omitted_fig2
+bernacchi,Bernacchi (2003),n.tobaccum,25,10,0.538,0.766,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,15.1,0.602,0.857,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,20,0.653,0.93,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,25,0.685,0.976,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,29.9,0.702,1,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,34.9,0.702,1,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,37.4,0.697,0.992,no
+bernacchi,Bernacchi (2003),n.tobaccum,25,39.9,0.687,0.979,no
+june,June (2004),g.max,20,20,0.35,0.624,no
+june,June (2004),g.max,20,21.4,0.38,0.678,no
+june,June (2004),g.max,20,22.1,0.403,0.719,no
+june,June (2004),g.max,20,22.5,0.413,0.736,no
+june,June (2004),g.max,20,22.6,0.429,0.765,no
+june,June (2004),g.max,20,22.9,0.441,0.786,no
+june,June (2004),g.max,20,24.3,0.454,0.809,no
+june,June (2004),g.max,20,25.1,0.471,0.841,no
+june,June (2004),g.max,20,26.1,0.488,0.871,no
+june,June (2004),g.max,20,26.9,0.503,0.897,no
+june,June (2004),g.max,20,27.6,0.51,0.91,no
+june,June (2004),g.max,20,28.3,0.522,0.931,no
+june,June (2004),g.max,20,28.9,0.526,0.939,no
+june,June (2004),g.max,20,29.6,0.532,0.949,no
+june,June (2004),g.max,20,30.3,0.539,0.961,no
+june,June (2004),g.max,20,30.9,0.544,0.97,no
+june,June (2004),g.max,20,31.2,0.556,0.992,no
+june,June (2004),g.max,20,32.1,0.561,1,no
+june,June (2004),g.max,20,32.7,0.561,1,no
+june,June (2004),g.max,20,33.3,0.561,1.001,no
+june,June (2004),g.max,20,34.1,0.561,1.001,no
+june,June (2004),g.max,20,35.2,0.556,0.992,no
+june,June (2004),g.max,20,35.9,0.557,0.993,no
+june,June (2004),g.max,20,36.3,0.561,1,no
+june,June (2004),g.max,20,35.8,0.561,1.001,no
+june,June (2004),g.max,20,37.1,0.554,0.989,no
+june,June (2004),g.max,20,37.8,0.552,0.985,no
+june,June (2004),g.max,20,38.9,0.547,0.976,no
+june,June (2004),g.max,20,39.5,0.537,0.958,no
+june,June (2004),g.max,20,39.6,0.531,0.947,no
+june,June (2004),g.max,20,39.8,0.526,0.939,no
+june,June (2004),g.max,20,40.1,0.518,0.924,no
+june,June (2004),g.max,20,40.9,0.512,0.914,no
+june,June (2004),g.max,20,40.6,0.511,0.911,no
+june,June (2004),g.max,20,41.3,0.499,0.89,no
+june,June (2004),g.max,20,42,0.49,0.874,no
+june,June (2004),g.max,20,42,0.493,0.879,no
+june,June (2004),g.max,20,42.3,0.476,0.849,no
+june,June (2004),g.max,20,43.1,0.47,0.838,no
+june,June (2004),g.max,20,42.9,0.475,0.847,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,24.3,0.689,0.958,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,31.4,0.719,1,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,34.4,0.716,0.996,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,37.6,0.708,0.984,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,39.1,0.718,0.998,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,41.3,0.708,0.985,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,43.3,0.712,0.99,no
+salvucci,Salvucci (2006) wt,a.thaliana,23,46.2,0.709,0.986,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,22.9,0.72,0.993,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,30.8,0.714,0.985,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,33.5,0.713,0.983,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,35.4,0.716,0.988,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,37.5,0.725,1,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,39.5,0.715,0.987,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,42,0.706,0.974,no
+salvucci,Salvucci (2006) rwt43,a.thaliana,23,44.9,0.685,0.945,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,24.1,0.672,1,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,31.2,0.654,0.972,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,33.5,0.659,0.981,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,36.5,0.616,0.916,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,37.5,0.592,0.881,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,40.2,0.525,0.78,no
+salvucci,Salvucci (2006) rwt46,a.thaliana,23,43.1,0.431,0.641,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,24.6,0.681,0.993,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,32,0.686,1,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,34.8,0.67,0.977,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,37.1,0.528,0.77,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,39.4,0.45,0.656,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,40.9,0.392,0.572,no
+salvucci,Salvucci (2006) delta43,a.thaliana,23,42.1,0.35,0.51,no
+dwyer,Dwyer (2007) 25C,f.bidentis,25,25,0.376,0.766,no
+dwyer,Dwyer (2007) 25C,f.bidentis,25,28.1,0.407,0.828,no
+dwyer,Dwyer (2007) 25C,f.bidentis,25,31,0.437,0.89,no
+dwyer,Dwyer (2007) 25C,f.bidentis,25,34,0.468,0.953,no
+dwyer,Dwyer (2007) 25C,f.bidentis,25,37,0.48,0.978,no
+dwyer,Dwyer (2007) 25C,f.bidentis,25,39.9,0.491,1,no
+dwyer,Dwyer (2007) 35C,f.bidentis,35,25,0.286,0.656,no
+dwyer,Dwyer (2007) 35C,f.bidentis,35,28,0.321,0.736,no
+dwyer,Dwyer (2007) 35C,f.bidentis,35,31.1,0.36,0.826,no
+dwyer,Dwyer (2007) 35C,f.bidentis,35,34,0.404,0.926,no
+dwyer,Dwyer (2007) 35C,f.bidentis,35,37,0.421,0.966,no
+dwyer,Dwyer (2007) 35C,f.bidentis,35,40,0.436,1,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,-4.9,0.009,0.024,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,5,0.06,0.16,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,10,0.19,0.511,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,19.9,0.271,0.729,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,29.9,0.372,1,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,34.9,0.362,0.972,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.leaf,f.sylvatica,20,39.8,0.281,0.756,no
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,-4.9,0.049,0.144,yes
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,5,0.09,0.264,yes
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,10,0.11,0.322,yes
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,19.9,0.24,0.704,yes
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,29.9,0.331,0.97,yes
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,34.8,0.341,1,yes
+wittman.pfanz,Wittmann & Pfanz (2007) fagus.stem,f.sylvatica,20,39.8,0.331,0.97,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,-5.1,0.04,0.097,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,5,0.1,0.244,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,10,0.17,0.414,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,15,0.191,0.463,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,20,0.291,0.707,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,25,0.331,0.805,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,30,0.392,0.952,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,35,0.412,1,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,40,0.362,0.879,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.stem,b.pendula,20,43.1,0.342,0.831,yes
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,-5.1,0.009,0.019,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,5,0.181,0.367,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,10,0.2,0.407,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,15,0.291,0.591,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,20,0.431,0.876,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,25,0.483,0.98,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,30,0.492,1,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,35,0.432,0.877,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,40,0.331,0.672,no
+wittman.pfanz,Wittmann & Pfanz (2007) betula.leaf,b.pendula,20,43.1,0.251,0.51,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,-7.6,0.023,0.044,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,-4.5,0.067,0.128,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,-1.6,0.105,0.201,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,1.5,0.135,0.259,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,4.5,0.197,0.378,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,10.5,0.361,0.692,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,13.5,0.374,0.718,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,16.5,0.412,0.791,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,19.5,0.505,0.968,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,22.6,0.521,1,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,25.5,0.508,0.974,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,28.5,0.495,0.951,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,31.6,0.465,0.892,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,34.5,0.441,0.846,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,37.6,0.405,0.776,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,40.6,0.352,0.674,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,46.6,0.258,0.494,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,49.5,0.095,0.183,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,52.6,0.068,0.131,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,55.6,0.045,0.087,no
+dongsansuk,Dongsansuk (2013) allium,a.ursinum,20.2,58.7,0.023,0.044,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,-7.5,0.026,0.056,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,-4.5,0.031,0.066,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,4.5,0.2,0.435,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,10.4,0.258,0.561,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,13.4,0.299,0.651,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,16.3,0.327,0.711,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,28.2,0.444,0.967,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,31.2,0.46,1,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,34.1,0.456,0.993,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,37.1,0.443,0.963,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,40.1,0.369,0.804,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,46,0.284,0.618,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,49,0.267,0.581,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,51.9,0.156,0.339,no
+dongsansuk,Dongsansuk (2013) musa,musa.sp.,30,54.9,0.105,0.229,no
+janka,Janka (2015) par117,d.grandiflora,25,18.2,0.772,0.982,no
+janka,Janka (2015) par117,d.grandiflora,25,22.6,0.786,1,no
+janka,Janka (2015) par117,d.grandiflora,25,27,0.758,0.965,no
+janka,Janka (2015) par117,d.grandiflora,25,31.4,0.754,0.959,no
+janka,Janka (2015) par117,d.grandiflora,25,35.8,0.725,0.922,no
+janka,Janka (2015) par311,d.grandiflora,25,18.2,0.668,0.977,no
+janka,Janka (2015) par311,d.grandiflora,25,22.6,0.662,0.968,no
+janka,Janka (2015) par311,d.grandiflora,25,27,0.684,1,no
+janka,Janka (2015) par311,d.grandiflora,25,31.4,0.664,0.971,no
+janka,Janka (2015) par311,d.grandiflora,25,35.8,0.643,0.941,no
+janka,Janka (2015) par485,d.grandiflora,25,20,0.586,1,no
+janka,Janka (2015) par485,d.grandiflora,25,24,0.585,0.997,no
+janka,Janka (2015) par485,d.grandiflora,25,28,0.586,1,no
+janka,Janka (2015) par485,d.grandiflora,25,32,0.529,0.902,no
+janka,Janka (2015) par485,d.grandiflora,25,36,0.565,0.964,no
+janka,Janka (2015) par667,d.grandiflora,25,20,0.566,1,no
+janka,Janka (2015) par667,d.grandiflora,25,24,0.553,0.976,no
+janka,Janka (2015) par667,d.grandiflora,25,28,0.533,0.941,no
+janka,Janka (2015) par667,d.grandiflora,25,32,0.377,0.666,no
+janka,Janka (2015) par667,d.grandiflora,25,36,0.472,0.833,no
+wittman,Wittman (2021) q.ilex,q.ilex,,25,0.368,0.883,yes
+wittman,Wittman (2021) q.ilex,q.ilex,,30,0.398,0.955,yes
+wittman,Wittman (2021) q.ilex,q.ilex,,35,0.417,1,yes
+wittman,Wittman (2021) q.ilex,q.ilex,,38,0.397,0.952,yes
+wittman,Wittman (2021) q.ilex,q.ilex,,40,0.372,0.892,yes
+wittman,Wittman (2021) q.ilex,q.ilex,,42,0.342,0.819,yes
+wittman,Wittman (2021) q.ilex,q.ilex,,45.1,0.254,0.609,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,22.9,0.368,0.882,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,27.9,0.399,0.956,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,32.6,0.418,1,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,34.6,0.397,0.95,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,37.1,0.372,0.891,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,39.1,0.341,0.816,yes
+wittman,Wittman (2021) q.ilex.cortex,q.ilex,,41.5,0.254,0.608,yes
+wittman,Wittman (2021) q.robur,r.robur,,25,0.319,0.813,yes
+wittman,Wittman (2021) q.robur,r.robur,,30,0.379,0.966,yes
+wittman,Wittman (2021) q.robur,r.robur,,35,0.393,1,yes
+wittman,Wittman (2021) q.robur,r.robur,,38,0.374,0.953,yes
+wittman,Wittman (2021) q.robur,r.robur,,40,0.335,0.853,yes
+wittman,Wittman (2021) q.robur,r.robur,,42,0.264,0.671,yes
+wittman,Wittman (2021) q.robur,r.robur,,45.1,0.136,0.348,yes
+xu,Xu (2021),red.alga,22,4.1,0.282,0.679,yes
+xu,Xu (2021),red.alga,22,8,0.33,0.796,yes
+xu,Xu (2021),red.alga,22,12,0.376,0.905,yes
+xu,Xu (2021),red.alga,22,16,0.403,0.971,yes
+xu,Xu (2021),red.alga,22,19.9,0.415,1,yes
+xu,Xu (2021),red.alga,22,24,0.403,0.971,yes
+xu,Xu (2021),red.alga,22,27.9,0.364,0.876,yes
+xu,Xu (2021),red.alga,22,31.9,0.306,0.737,yes
+xu,Xu (2021),red.alga,22,35.9,0.197,0.474,yes
+xu,Xu (2021),red.alga,22,39.9,0.058,0.139,yes
+greer,Greer (2022),vitis.vinifera,26.7,20,0.08,0.316,no
+greer,Greer (2022),vitis.vinifera,26.7,25,0.11,0.436,no
+greer,Greer (2022),vitis.vinifera,26.7,30,0.154,0.61,no
+greer,Greer (2022),vitis.vinifera,26.7,35,0.196,0.775,no
+greer,Greer (2022),vitis.vinifera,26.7,40,0.253,1,no
+greer,Greer (2022),vitis.vinifera,26.7,45,0.157,0.62,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,-2.1,0.131,0.186,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,1.9,0.433,0.616,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,6,0.587,0.837,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,9.9,0.63,0.898,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,14,0.675,0.962,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,17.9,0.692,0.986,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,21.9,0.702,1,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,25.9,0.694,0.989,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,29.9,0.682,0.971,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,34,0.645,0.919,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,37.9,0.542,0.772,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,41.9,0.421,0.6,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,46,0.307,0.437,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,49.9,0.181,0.258,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,n.cyclamineus,20.2,54,0.059,0.084,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) narcissus,musa.sp.,30,-2.1,0.067,0.095,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,1.9,0.161,0.231,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,6,0.335,0.479,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,10,0.455,0.652,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,14,0.525,0.751,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,17.9,0.594,0.85,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,21.9,0.669,0.959,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,26,0.697,0.998,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,29.9,0.698,1,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,34,0.689,0.987,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,38,0.664,0.951,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,41.9,0.645,0.924,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,46,0.603,0.863,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,49.9,0.46,0.659,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,54,0.26,0.373,no
+dongsansuk.neuner,Dongsansuk & Neuner (2013) musa,musa.sp.,30,58,0.014,0.02,no
